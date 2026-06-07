@@ -1,0 +1,142 @@
+%% sections/c-policy-memo.tex - H. R. 9510 Bill v4.0 (full bill) - Appendix C
+%% Genre: plain-English policy memorandum (TO/FROM/RE/DATE + Q&A). Source
+%% deliverable 03. Gray-scale Mermaid figure (TikZ): Figure 8 (verification gate
+%% as a system). Single hyphens only; section symbol only in tables.
+\billsec{APPENDIX C.}{PLAIN-ENGLISH POLICY MEMORANDUM (NON-OPERATIVE).}\phantomsection\label{toc:aC}
+
+\uscprov{1}{\textit{Independent research draft. Not an enacted law, not pending
+legislation, and not legal advice; not endorsed by the FDA, HHS, or any Member of
+Congress. This memorandum is non-operative; it explains the bill and carries no
+legal force of its own.}}
+
+\uscprov{0}{\textbf{TO:} Health policy staff, Member of the House Committee on Energy
+and Commerce (Subcommittee on Health)\\ \textbf{FROM:} CEO Kevin Kawchak,
+ChemicalQDevice\\ \textbf{RE:} H. R. 9510, the Verification Before Generation in
+Physical AI Oncology Trials Act of 2026 (illustrative number; the Clerk assigns the
+real number at introduction), 119th Congress, 2d Session\\ \textbf{DATE:} June 7,
+2026}
+
+\uscprov{1}{This memorandum lays out one specific safety gap in how artificial
+intelligence is now used in cancer trials, explains why current law does not close
+it, and describes a narrow, low-cost bill that would. It is written so a non-engineer
+can read it in a few minutes and brief the Member, and it is set out as a short
+series of questions and answers.}
+
+\uscprov{1}{\textbf{Q. What is the problem in one sentence?}}
+\uscprov{1}{A. Cancer trials are now placing robots in direct physical contact with
+patients, what the robot does at the instant it touches a patient is decided by
+software that AI increasingly writes in real time, and no Federal law governs the
+order of operations, so a sponsor may generate the robot-patient interaction code,
+run it on a patient, and document the safety checks afterward. We call this the
+sequencing gap.}
+
+\uscprov{1}{\textbf{Q. Why does the order of operations matter so much here?}}
+\uscprov{1}{A. Because of embodiment. In an ordinary data pipeline a software error
+produces a wrong number a human can catch downstream before anyone is harmed; in an
+embodied surgical system the same class of error produces a wrong physical motion a
+human cannot catch in time, because one moving body concentrates every failure mode
+into a single instrument acting in real time. Checking the code after it has already
+moved is, in this setting, checking too late.}
+
+\uscprov{1}{\textbf{Q. Does not existing law already cover this?}}
+\uscprov{1}{A. The framework is substantial, and the bill builds on it rather than
+replacing it, but every piece stops just short of requiring verification before the
+code is generated. The closest analogue is the predetermined change control plan
+authority Congress added in 2022 at section 515C of the Federal Food, Drug, and
+Cosmetic Act (21 U.S.C. 360e-4), with the FDA final guidance for AI-enabled device
+software functions. That authority lets the FDA pre-authorize a planned change before
+it ships, which is the right idea, but it is voluntary, submission-based, runs on the
+FDA review clock, and is not required in advance of generating new code. The Quality
+Management System Regulation (21 CFR part 820, in force since February 2, 2026) and
+the part 11 electronic-records rule make a verification record trustworthy but do not
+require the verification to come first; the CMS Medicare Advantage guardrail (42 CFR
+422.101(c)) keeps a human over AI for a coverage decision but not over robot code;
+and Federal nondiscrimination law reaches bias and accessibility but not sequencing
+\cite{usc-360e4, fda-pccp-2024, fr-qmsr-2024, cms-4201-ma}.}
+
+\uscprov{1}{A. Several States have acted, but at the claims and utilization-review
+layer, not the robot-code layer: California Senate Bill 1120, Illinois House Bill
+1806, the Texas Responsible Artificial Intelligence Governance Act (House Bill 149),
+and Maryland House Bill 820. No two are identical, and none reaches trial-conduct
+code, so a sponsor operating across States cannot build one robot-patient code base
+against divergent claims-layer regimes. The substantive content a verification gate
+would enforce already exists, scattered across these authorities; the one rule that
+makes verification a precondition of generation does not exist anywhere, and that
+single missing rule is what H. R. 9510 supplies.}
+
+\uscprov{1}{\textbf{Q. What exactly does the bill do?}}
+\uscprov{1}{A. It amends the Federal Food, Drug, and Cosmetic Act (21 U.S.C. 301 et
+seq.), current through Public Law 119-93, adding one new section, 515D, codified at 21
+U.S.C. 360e-5, placed immediately after the section 515C change control authority it
+most resembles. The core rule is a single sequencing requirement: no robot-patient
+interaction code may be generated or executed in a Physical AI oncology clinical
+investigation unless an automated verification, validation, and uncertainty
+quantification process, bound to named external standards, has first cleared for that
+interaction, with the record documented and attested. A record created after
+generation or execution does not satisfy the section; the timing of the record is
+itself the compliance fact. Each check emits ACCEPT, BLOCK, or ESCALATE; the
+verification fraction must equal 1.0, with no partial credit; and three gates carry a
+hard catastrophe predicate at perfect agreement, tied to ASME V\&V 40, ISO/TS 15066,
+and the other named standards so the test is auditable rather than discretionary
+\cite{usc-fdca, asmevv40, isots15066}.}
+
+\begin{mermaidfig}
+\node[mmperson,text width=26mm] (p) at (0,0) {Person: trial sponsor or investigator};
+\node[mmdec,text width=26mm] (gate) at (0,-2.2) {Automated VVUQ gate (new sec. 360e-5)};
+\node[mmstep,text width=28mm] (std) at (-3.8,-4.3) {Standards bindings: ASME V\&V 40, ISO/TS 15066};
+\node[mmstep,text width=26mm] (rec) at (0,-4.3) {Immutable record (part 11)};
+\node[mmlaw,text width=26mm] (fda) at (3.8,-4.3) {FDA review (PMA or PCCP)};
+\draw[mmedge] (p) -- node[mmlabel]{submits code} (gate);
+\draw[mmedge] (gate) -- (std);
+\draw[mmedge] (gate) -- (rec);
+\draw[mmedge] (gate) -- node[mmlabel]{ACCEPT} (fda);
+\end{mermaidfig}
+\vspace{-0.3cm}
+\figcaption{Figure 8. The verification gate as a system: a submitted interaction is
+checked against named standards, written to an immutable record, and only an ACCEPT
+artifact proceeds to FDA review.}
+
+\uscprov{1}{Figure 8 shows the gate as a working system rather than a slogan. A
+person, the sponsor or investigator, submits the robot-patient interaction code; the
+automated gate under new section 515D checks it against the named external standards
+and writes the result to an immutable part 11 record; and only an ACCEPT artifact is
+allowed to proceed to FDA review under a premarket application or a predetermined
+change control plan. A BLOCK or an ESCALATE never reaches that arrow.}
+
+\uscprov{1}{\textbf{Q. Is it actually feasible to verify code before it runs?}}
+\uscprov{1}{A. Yes, and it has already been run on the record, not merely hoped for.
+In a first study (VVUQ-01) an automated pipeline held the verification fraction at
+1.0 across 51 of 51 tests, accepting 1 candidate artifact, blocking 5, and escalating
+1. In a second study (VVUQ-02) a ten-gate assurance suite over the control software
+for a surgical humanoid cleared 172 of 172 tests and 32 of 32 sweep iterations, with
+a composite mean of 93.56, reproducibly from a fixed seed (20260525). The bill asks
+sponsors to do, as a precondition, what has already been demonstrated to work
+\cite{kawchak2026vvuq01, kawchak2026vvuq02}.}
+
+\uscprov{1}{\textbf{Q. Why now, and not in a few years?}}
+\uscprov{1}{A. Clinical investigation is moving toward real-time, decentralized,
+machine-generated control code. A real-time trial cannot wait weeks for a manual,
+document-by-document code review between procedures, and manual review already cannot
+keep pace with the volume of code a multi-site trial produces in 2026. The gap widens
+with every robot added to a site, so an automated gate that clears before generation
+is not a brake on modernization; it is the only assurance that can run at the speed
+modernization now demands.}
+
+\uscprov{1}{\textbf{Q. How does the bill fit existing law, and what does it cost?}}
+\uscprov{1}{A. It is additive, not disruptive. It leaves the investigational-device
+exemption, human-subject protection (21 CFR part 50), and the investigational new
+drug framework (21 CFR part 312) in place; frames the gate as a pre-authorized change
+control discipline of the kind section 515C already contemplates; and routes its
+records through the part 11 rule and the part 820 quality system that 2026 sponsors
+already meet. A savings clause preserves the State human-in-the-loop laws above. It
+creates no new agency or program, directs final regulations within 365 days, and is
+expected to be PAYGO neutral, with the statute self-executing in the meantime
+\cite{cfr-part50, cfr-part312, cbo-paygo}.}
+
+\uscprov{1}{\textbf{Q. What is the recommendation?}}
+\uscprov{1}{A. We recommend that the Member consider introducing H. R. 9510 and refer
+it to the Committee on Energy and Commerce (Subcommittee on Health). It closes a
+narrow, well-defined, and growing safety gap with a proven, low-cost mechanism; it
+builds on tools the FDA and CMS already use; it preserves existing State protections;
+and it positions the United States to set the global standard for verifying
+surgical-robot software before that software ever touches a patient.}

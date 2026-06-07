@@ -1,0 +1,127 @@
+%% sections/s4-comparative.tex - H. R. 9510 Bill v4.0 (full bill)
+%% SEC. 4. COMPARATIVE PRINT; CHANGES IN EXISTING LAW.
+%% Gray-scale Mermaid figure (TikZ): Figure 5 (affected sections in order).
+%% Table 4 (per-section change map) and the reproduced provisions with markers.
+\billsec{SEC. 4.}{COMPARATIVE PRINT; CHANGES IN EXISTING LAW.}\phantomsection\label{toc:s4}
+
+\uscprov{1}{\textbf{(a) Reader's Note on Conventions.} This section shows, in
+comparative print, the changes the amendment makes to existing law. Existing text
+is plain; matter proposed to be struck is shown \cprstrike{a strike marker}; matter
+proposed to be inserted is shown \cprinsert{an insert marker}. No strikethrough or
+underline is used. Table 4 is the per-section change map, and Figure 5 shows the
+eleven affected sections in comparative-print order.}
+
+{\footnotesize
+\begin{xltabular}{\textwidth}{@{}L{1.8cm} L{2.0cm} Y@{}}
+\hline\noalign{\vskip 0.04cm}
+\textbf{FD\&C \S} & \textbf{21 U.S.C.} & \textbf{Nature of the marked change}\\
+\hline\noalign{\vskip 0.04cm}
+\endfirsthead
+\hline\noalign{\vskip 0.04cm}
+\textbf{FD\&C \S} & \textbf{21 U.S.C.} & \textbf{Nature of the marked change}\\
+\hline\noalign{\vskip 0.04cm}
+\endhead
+\hline\noalign{\vskip 0.04cm}
+\endlastfoot
+new \S~515D & \S~360e-5 & Insert the entire new section (verify before generation)\\
+\hline\noalign{\vskip 0.04cm}
+\S~201(h) & \S~321(h) & Insert reach to robot-patient interaction code\\
+\hline\noalign{\vskip 0.04cm}
+\S~301 & \S~331 & Insert a new prohibited act paragraph\\
+\hline\noalign{\vskip 0.04cm}
+\S~501 & \S~351 & Insert an adulteration trigger for a missing 515D record\\
+\hline\noalign{\vskip 0.04cm}
+\S~505F & \S~355g & Insert recognition of 515D records in the RWE program\\
+\hline\noalign{\vskip 0.04cm}
+\S~510(k) & \S~360(k) & Insert a verification-governed-change exception\\
+\hline\noalign{\vskip 0.04cm}
+\S~513 & \S~360c & Insert graduated special controls by degree of autonomy\\
+\hline\noalign{\vskip 0.04cm}
+\S~515 & \S~360e & Insert the cleared record into the PMA contents\\
+\hline\noalign{\vskip 0.04cm}
+\S~515C & \S~360e-4 & Insert an automated verification-before-change protocol\\
+\hline\noalign{\vskip 0.04cm}
+\S~520(o) & \S~360j(o) & Insert a carve-back excluding robot-control software\\
+\hline\noalign{\vskip 0.04cm}
+\S~521 & \S~360k & Insert a State human-in-the-loop savings clause\\
+\hline
+\end{xltabular}}
+\vspace{-0.8cm}
+\figcaption{Table 4. Per-section comparative-print change map: the new section and
+the ten conforming amendments, each by Federal Food, Drug, and Cosmetic Act
+section, 21 U.S.C. citation, and the nature of the marked change.}
+
+\begin{mermaidfig}
+\node[mmin,text width=22mm]  (a) at (0,0)    {\S 321 definitions};
+\node[mmin,text width=22mm]  (b) at (2.7,0)  {\S 360c classification};
+\node[mmstep,text width=22mm](c) at (5.4,0)  {\S 360e PMA};
+\node[mmlaw,text width=22mm] (d) at (8.1,0)  {\S 360e-4 PCCP};
+\node[mmgoal,text width=22mm](e) at (10.8,0) {\S 360e-5 NEW};
+\node[mmin,text width=40mm]  (f) at (5.4,-1.9) {\S 331, 351, 355g, 360(k), 360j(o), 360k conforming};
+\draw[mmedge] (a)--(b); \draw[mmedge] (b)--(c); \draw[mmedge] (c)--(d);
+\draw[mmedge] (d)--(e); \draw[mmedge] (e) |- (f);
+\end{mermaidfig}
+\vspace{-0.3cm}
+\figcaption{Figure 5. The eleven affected sections in comparative-print order: the
+classification-to-approval spine, the new section 360e-5, and the conforming
+amendments threaded through the rest of Title 21.}
+
+\uscprov{1}{\textbf{(b) New Section 515D (21 U.S.C. 360e-5).} The following new
+section is inserted after section 515C:}
+\uscquote{0}{\cprinsert{Sec. 515D. Verification before generation of robot-patient
+interaction code in Physical AI oncology investigations. (a) No robot-patient
+interaction code may be generated or executed in a Physical AI oncology clinical
+investigation unless an automated verification, validation, and uncertainty
+quantification process, bound to one or more named external standards, has first
+cleared for that interaction, and the cleared verification record has been
+documented and attested. The full text of subsections (a) through (j) is set out in
+section 3 of this Act.}}
+
+\uscprov{1}{\textbf{(c) Section 201(h) (21 U.S.C. 321(h)); Device.}}
+\uscquote{0}{``The term `device' means an instrument, apparatus, implement,
+machine, ... including any component, part, or accessory,
+\cprinsert{including software that generates or executes robot-patient interaction
+code in a Physical AI oncology clinical investigation,} which is ... intended to
+affect the structure or any function of the body ...''.}
+
+\uscprov{1}{\textbf{(d) Section 301 (21 U.S.C. 331); Prohibited Acts.}}
+\uscquote{0}{``The following acts and the causing thereof are prohibited:
+\cprinsert{(fff) The generation or execution of robot-patient interaction code in a
+Physical AI oncology clinical investigation in violation of section 515D.}''.}
+
+\uscprov{1}{\textbf{(e) Section 501 (21 U.S.C. 351); Adulterated Devices.}}
+\uscquote{0}{``A drug or device shall be deemed to be adulterated ...
+\cprinsert{(k) if it is a device used in a Physical AI oncology clinical
+investigation for which a cleared verification record required by section 515D has
+not been documented and attested before the robot-patient interaction code was
+generated or executed.}''.}
+
+\uscprov{1}{\textbf{(f) Section 510(k) (21 U.S.C. 360(k)); Premarket Notification.}}
+\uscquote{0}{``... a report under this subsection \cprinsert{is not required for a
+change to robot-patient interaction code that is governed by, and clears, an
+automated verification process consistent with a predetermined change control plan
+under section 515C and the verification requirement of section 515D}.''.}
+
+\uscprov{1}{\textbf{(g) Section 520(o) (21 U.S.C. 360j(o)); Clinical Decision
+Support.}}
+\uscquote{0}{``The term `device' ... shall not include a software function ...
+\cprinsert{except that this paragraph does not exclude software that controls or
+generates the motion of a robot in direct physical contact with a patient, which
+remains a device subject to section 515D}.''.}
+
+\uscprov{1}{\textbf{(h) Section 521 (21 U.S.C. 360k); State and Local
+Requirements.}}
+\uscquote{0}{``... no State or political subdivision of a State may establish ... any
+requirement \cprinsert{except that nothing in this section preempts a State
+requirement that preserves a licensed human's authority over an
+artificial-intelligence-influenced decision and is not different from, or in
+addition to, a requirement under section 515D}.''.}
+
+\uscprov{1}{\textbf{(i) Remaining Conforming Amendments.} Sections 505F (21 U.S.C.
+355g), 513 (21 U.S.C. 360c), 515 (21 U.S.C. 360e), and 515C (21 U.S.C. 360e-4) are
+amended as described in Table 3 and section 3(b), each by inserting the
+section-515D recognition, the graduated special controls, the cleared-record
+contents requirement, and the automated verification-before-change protocol,
+respectively. No existing text is struck by any conforming amendment; each change is
+an insertion, so existing law is preserved in full \cite{usc-355g, usc-360c,
+usc-360e, usc-360e4}.}
