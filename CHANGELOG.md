@@ -43,6 +43,7 @@ prompt, with real-time commits and pull requests.
 - The diagram medium moved from the prior bills' ASCII figures to **gray-scale
   Mermaid** diagrams: real `mermaid` blocks in the Markdown and matching gray-scale
   TikZ figures in the compiled LaTeX (Rule 5). No raster images anywhere.
+- @kevinkawchak uodated Bill DOIs for main/README.md, single-prompt-bill/blob/main/auto-bill-01/README.md, and single-prompt-bill/blob/main/auto-bill-01/final-bill/README.md on 2026-06-07.
 
 ### Notes
 - Independent research draft. Not an enacted law, not pending legislation, and not
