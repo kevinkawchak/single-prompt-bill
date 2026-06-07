@@ -120,7 +120,7 @@ Every directory README names the exact upstream files it used. The project-level
   VVUQ-03 v1.0, VVUQ-04 v2.0, and VVUQ-05 v3.0).
 - **Repository release:** **v1.0.0** (the first tagged release of this repository).
 - **DOIs** are left as `10.5281/zenodo.xxxxxxxx`
-  ([https://doi.org/10.5281/zenodo.20576907](https://doi.org/10.5281/zenodo.20576907)
+  ([https://doi.org/10.5281/zenodo.20576907](https://doi.org/10.5281/zenodo.20576907))
   pending deposit (Rule 15).
 
 ## Responsible use and license
