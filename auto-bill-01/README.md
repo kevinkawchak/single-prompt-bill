@@ -4,7 +4,7 @@
 [![Bill](https://img.shields.io/badge/Bill-H.%20R.%209510%20v4.0-darkblue.svg)](.)
 [![Engine](https://img.shields.io/badge/Engine-Claude%20Code%20Opus%204.8%20(1M)%20Max-blue.svg)](.)
 [![Diagrams](https://img.shields.io/badge/Diagrams-Gray--scale%20Mermaid%20only-lightgrey.svg)](.)
-[![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.20576907-blue.svg)](https://doi.org/10.5281/zenodo.20576907)
 
 This directory holds the entire autonomous build of **H. R. 9510 Bill v4.0**, the
 *Verification Before Generation in Physical AI Oncology Trials Act of 2026*. The
