@@ -1,0 +1,260 @@
+%% sections/l-testimony-influence.tex - H. R. 9510 Bill v4.0 (full bill) - Appendix L
+%% Genre: hearing testimony + research-influence brief (opening statement, Q&A block,
+%% research-influence matrix). Source deliverable 12. Table 11. Gray-scale Mermaid
+%% figure (TikZ): Figure 7 (evidence to introduction handoff). Single hyphens only;
+%% section symbol only in tables.
+\billsec{APPENDIX L.}{TESTIMONY AND RESEARCH-INFLUENCE BRIEF (NON-OPERATIVE).}\phantomsection\label{toc:aL}
+
+\uscprov{1}{\textit{Independent research draft. Not an enacted law, not pending
+legislation, and not legal advice; not endorsed by the FDA, HHS, or any Member of
+Congress. The bills and executive actions discussed are research influences only and
+are not the legal basis of any operative provision.}}
+
+\uscprov{1}{This appendix has two parts. Part I is hearing testimony, written to be
+read aloud in about five minutes before the House Committee on Energy and Commerce
+(Subcommittee on Health), with a question-and-answer block. Part II is a
+research-influence brief that records, for the hearing record, exactly how recent
+executive actions and emerging 119th Congress bills relate to H. R. 9510, and exactly
+why none of them appears in its operative text.}
+
+\uscprov{0}{\textbf{PART I. HEARING TESTIMONY.}}
+
+\uscprov{1}{Chairman, Ranking Member, and Members of the Subcommittee: thank you for
+the opportunity to testify on the verification of artificial intelligence in cancer
+trials, and specifically on the safety of AI that does not merely advise a clinician
+but physically moves around a patient and acts upon that patient.}
+
+\uscprov{1}{\textbf{Who I am.} I am Kevin Kawchak, Chief Executive Officer of
+ChemicalQDevice. Our work concerns the verification, validation, and uncertainty
+quantification, or VVUQ, of high-consequence AI systems, including the control
+software for surgical and patient-contacting robots used in oncology research. I appear
+in an independent research capacity. The draft bill I will describe, H. R. 9510, is an
+illustrative research instrument; no Member has agreed to sponsor it, and nothing I say
+should be taken as the position of the FDA, of HHS, or of any Member of Congress.}
+
+\uscprov{1}{\textbf{The problem.} Cancer trials are beginning to place robots in direct
+physical contact with patients: surgical humanoids that cut and suture, positioning
+systems that hold a patient during treatment, and platforms that place biopsy or
+delivery needles. What such a robot does at the instant it touches a patient is decided
+by software, and that software is increasingly written by AI in real time rather than
+typed, line by line, by a human engineer. Here is the gap. No Federal law governs the
+order of operations. A trial sponsor today may generate the robot-patient interaction
+code, run it on a patient, and document the safety checks afterward, in whatever order
+it chooses, because the order is simply not regulated. We call this the sequencing
+gap. Sequence matters because of embodiment. In an ordinary data pipeline, a software
+error produces a wrong number that a human can catch downstream before anyone is
+harmed. In an embodied surgical system, the same class of error produces a wrong
+physical motion that a human cannot catch in time, because one moving body concentrates
+every failure mode into a single instrument acting in real time. Checking the code
+after it has already moved is, in this setting, checking too late.}
+
+\uscprov{1}{\textbf{The proposal.} H. R. 9510 supplies the one missing rule. It amends
+the Federal Food, Drug, and Cosmetic Act and adds a single new section, 515D, codified
+at 21 U.S.C. 360e-5, placed immediately after the predetermined change control
+authority at section 515C that it most resembles. The core rule is one sentence of
+policy: verify before generate. No robot-patient interaction code may be generated or
+executed in a Physical AI oncology clinical investigation unless an automated VVUQ
+process, bound to named external standards, has first cleared that interaction, with
+the record documented and attested. A record created after generation or execution does
+not satisfy the section. The timing of the record is itself the compliance fact. The
+gate is concrete, not aspirational. Each check returns one of three results: ACCEPT,
+BLOCK, or ESCALATE, which returns the interaction to a qualified human. For each
+interaction the verification fraction must equal 1.0, meaning every check passes, with
+no partial credit. Three gates carry a hard catastrophe predicate at perfect
+agreement: no breach of a vascular no-fly volume, a guaranteed minimum clearance from
+any human sharing the room, and a guaranteed safe state on fault or emergency stop
+\cite{usc-360e4}.}
+
+\uscprov{1}{\textbf{Why it is feasible.} This is not a hope; it has been run. In a
+first study, VVUQ-01, an automated pipeline held the verification fraction at 1.0
+across 51 of 51 tests, with 1 ACCEPT and 5 BLOCK outcomes. In a second study, VVUQ-02,
+a ten-gate assurance suite over the control software for a surgical humanoid cleared
+172 of 172 tests, with a composite mean of 93.56, reproducibly from a fixed seed,
+20260525. The bill asks sponsors to do, as a precondition, what has already been
+demonstrated to work. The gate is bound to recognized standards rather than to anyone's
+discretion: its thresholds tie to ASME V\&V 40, IEC 80601-2-77, ISO/TS 15066, ISO
+14971, NASA-STD-7009A, and IEEE 7009. That binding is what makes the test auditable and
+what keeps it from becoming a moving target \cite{kawchak2026vvuq01, kawchak2026vvuq02}.}
+
+\uscprov{1}{\textbf{Why it fits existing law.} I want to be candid about the policy
+environment. The current Federal posture toward AI is deliberately deregulatory and
+pro-innovation. This bill is designed to complement that posture, not to fight it. It
+is not a broad AI mandate. It is a narrow, standards-bound safety gate for one thing:
+embodied robot-patient code in clinical trials. The bill is additive. It leaves the
+investigational-device exemption, human-subject protection, and the investigational new
+drug framework in place. It frames the gate as a pre-authorized change-control
+discipline of the kind section 515C already contemplates, routes its records through the
+electronic-records rule and the quality-system regulation that sponsors already meet,
+and adds a savings clause so existing State human-in-the-loop laws are preserved. It
+creates no new agency and no new spending program; it directs rulemaking only
+\cite{eo-14179, omb-m2521}.}
+
+\uscprov{1}{\textbf{Respectful asks.} I respectfully ask the Subcommittee to consider
+three things. First, treat the sequencing gap as a discrete, well-defined safety
+question, separate from the larger and more contested debates about AI policy
+generally. Second, recognize that verification before generation is technically
+achievable today, on the evidence I have summarized, so the question before you is one
+of timing and assurance, not of feasibility. Third, if the Subcommittee acts, keep any
+measure narrow and standards-bound, so that it strengthens the credibility of American
+oncology research without becoming the broad mandate that current Federal policy
+disfavors. Thank you for your attention. I welcome your questions.}
+
+\uscprov{1}{\textbf{Anticipated questions and answers.} The following exchange
+anticipates the questions a Member is most likely to ask, with the responses the
+witness is prepared to give.}
+
+\uscprov{1}{\textit{Q. Is this a broad new mandate on artificial intelligence?}}
+
+\uscprov{1}{A. No. The section reaches one thing only: robot-patient interaction code
+in a Physical AI oncology clinical investigation. It does not touch disembodied
+diagnostic software, clinical-decision-support tools that only advise a clinician, or
+AI outside the trial setting. It is a single sequencing rule, bound to named external
+standards, for code that physically moves around a patient.}
+
+\uscprov{1}{\textit{Q. Will this slow down American innovation in cancer research?}}
+
+\uscprov{1}{A. It is designed not to. The gate is automated, so it runs at machine
+speed rather than waiting on manual review, and it asks sponsors to do as a
+precondition what two studies already show is achievable. By making the verification
+record auditable and standards-bound, it strengthens the credibility of the research it
+governs, which is what allows results to be trusted and relied upon.}
+
+\uscprov{1}{\textit{Q. Why legislate now rather than leave this to FDA guidance?}}
+
+\uscprov{1}{A. The closest existing analogue, the predetermined change control plan
+authority in section 515C and its final guidance, is voluntary, submission-based, and
+neither automated nor required in advance of generation. Guidance can describe good
+practice, but it cannot establish the order-of-operations rule that embodiment makes
+necessary. The bill supplies that one rule and directs the Secretary to issue final
+implementing regulations within 365 days \cite{usc-360e4}.}
+
+\uscprov{1}{\textit{Q. Does the bill conflict with the current deregulatory posture or
+with State law?}}
+
+\uscprov{1}{A. It is built to complement the deregulatory posture: it is narrow,
+standards-bound, and adds no new agency or spending program. On State law, it includes
+a savings clause that preserves existing State human-in-the-loop and audit
+requirements, so it sets a Federal floor for one safety question without displacing the
+human-oversight protections States have already enacted \cite{eo-14365}.}
+
+\uscprov{0}{\textbf{PART II. RESEARCH-INFLUENCE BRIEF.}}
+
+\uscprov{1}{This brief records, for the hearing record, how each recent executive
+action and each emerging 119th Congress bill relates to H. R. 9510, and demonstrates
+that none of them is, or could be, the legal basis of any operative provision. Table 11
+is the research-influence matrix; the placement column states where each authority is
+used, and the operative-versus-influence rule keeps every one of them out of the
+statutory text and the comparative print.}
+
+{\footnotesize
+\begin{xltabular}{\textwidth}{@{}L{2.0cm} L{3.4cm} Y L{2.4cm}@{}}
+\hline\noalign{\vskip 0.04cm}
+\textbf{Authority} & \textbf{What it is} & \textbf{What it informs} & \textbf{Placement}\\
+\hline\noalign{\vskip 0.04cm}
+\endfirsthead
+\hline\noalign{\vskip 0.04cm}
+\textbf{Authority} & \textbf{What it is} & \textbf{What it informs} & \textbf{Placement}\\
+\hline\noalign{\vskip 0.04cm}
+\endhead
+\hline\noalign{\vskip 0.04cm}
+\endlastfoot
+EO 14179 & Removing Barriers to American Leadership in AI (90 FR 8741) & Deregulatory
+posture in the findings narrative; the gate framed as credibility rather than mandate &
+Memo; matrix; testimony\\
+\hline\noalign{\vskip 0.04cm}
+EO 14365 & Ensuring a National Policy Framework for AI & State-law review and preemption
+context; the case for one national documentation standard & Appendix; matrix;
+testimony\\
+\hline\noalign{\vskip 0.04cm}
+OMB M-25-21 & Accelerating Federal Use of AI (pre-deployment testing) & The
+pre-deployment-testing analogue; the Federal lifecycle the gate maps onto & Memo;
+matrix; testimony\\
+\hline\noalign{\vskip 0.04cm}
+HHS AI Strategy & The HHS Artificial Intelligence Strategy (Dec. 2025) & Governance and
+reproducibility framing that resonates with VVUQ goals & Memo; matrix\\
+\hline\noalign{\vskip 0.04cm}
+H.R. 238 & Healthy Technology Act of 2025 & AI prescribing-authority direction; why
+autonomous clinical AI raises the evidentiary bar & Testimony; matrix\\
+\hline\noalign{\vskip 0.04cm}
+S. 1399 & Health Tech Investment Act & Medicare payment-class direction;
+clearance-gated payment makes validation the entry ticket & Testimony; matrix\\
+\hline\noalign{\vskip 0.04cm}
+H.R. 6361 & Ban AI Denials in Medicare Act & The human-over-AI signal; bipartisan
+distrust of opaque AI decisions & Findings narrative; matrix\\
+\hline\noalign{\vskip 0.04cm}
+H.R. 5045 & HEALTH AI Act & Generative-AI research direction; potential funding for
+validation methodology & Memo; matrix\\
+\hline\noalign{\vskip 0.04cm}
+H.Res. 694 & Sense of the House on the CMS WISeR AI pilot & The countervailing
+human-review signal; demand for auditable AI & Findings narrative; matrix\\
+\hline
+\end{xltabular}}
+\vspace{-0.8cm}
+\figcaption{Table 11. The research-influence matrix: emerging 119th Congress bills and
+executive actions, what each informs, and where each is used. The placement column is
+memo, appendix, or testimony only; none is ever in the operative text.}
+
+\uscprov{1}{\textbf{How each influence relates, and how it stays out of operative
+text.} The executive actions set the environment the bill is drafted into. EO 14179 and
+EO 14365 together describe a deregulatory, preemption-minded Federal posture; they
+influence the bill in one direction only, arguing against a broad mandate and in favor
+of a narrow, voluntary-credibility framing and a single national documentation
+standard. OMB M-25-21 is more structural: its requirement of pre-deployment testing, an
+impact assessment, and ongoing monitoring is the cleanest surviving Federal
+articulation of a VVUQ-style lifecycle, used as an analogue to show that verifying
+before deployment is already a recognized Federal idea. The HHS Artificial Intelligence
+Strategy of December 2025 is invoked only to show alignment of values. None of these is
+operative authority, and the bill never treats them as such. They are executive and
+sub-regulatory instruments, not statutes; they can change with an administration; and a
+safety gate that drew its legal force from an executive order would be unstable by
+construction. The bill therefore takes its operative force from the Federal Food, Drug,
+and Cosmetic Act and from recognized consensus standards
+\cite{eo-14179, eo-14365, omb-m2521, hhs-ai-strategy-2025}.}
+
+\uscprov{1}{The emerging bills establish legislative momentum on both sides of one
+question. On the autonomy side, H.R. 238 would let AI qualify as a practitioner
+eligible to prescribe, and S. 1399 would create a Medicare new-technology payment class
+for cleared algorithm-based services; both raise the stakes of getting autonomous
+clinical AI right, which is the gap a verification gate addresses. On the human-
+oversight side, H.R. 6361 would bar AI-driven prior authorization in traditional
+Medicare, and H.Res. 694 urges CMS to halt an AI coverage pilot; both reflect a
+bipartisan insistence that a human stay accountable for consequential AI decisions.
+H.R. 5045 sits alongside these as a research-funding vehicle that could support
+validation and evaluation methodology. These bills inform the testimony, the findings,
+and the matrix, and nothing more. They are introduced or in-committee measures; not one
+is enacted, and an introduced bill has no legal effect, so citing one as the basis of
+an operative clause would be both incorrect and misleading
+\cite{hr238-healthy-tech, s1399-health-tech-investment, hr6361-ban-ai-denials, hr5045-health-ai, hres694-wiser}.}
+
+\uscprov{1}{\textbf{Verification note.} Each authority above was verified by number,
+subject, and status before use, and each is presented strictly as a research influence;
+readers should re-verify currency before relying on any entry. Three cautions govern
+this brief. First, there is no valid Act in the 119th Congress on this subject; the
+measures titled VALID Act of 2025 are an unrelated matter, so no such Act is cited
+here. Second, a standalone AI-in-clinical-trials bill and a standalone Federal
+health-AI liability bill could not be verified, and no bill numbers are assigned to
+them. Third, the sponsor of H.Res. 694 was not cleanly confirmable, so it is cited by
+number and subject only. Consistent with the whole package, only enacted statutes,
+in-force rules, and recognized standards carry operative weight; the bills and
+executive actions in this brief carry none.}
+
+\uscprov{1}{\textbf{Evidence to introduction.} Figure 7 traces the handoff this
+appendix sits within: the author sets requirements; Claude Code Opus 4.8 generates and
+runs the work; the VVUQ gates and tests confirm it; the Office of the Legislative
+Counsel puts the result in legislative form; and a sponsoring Member introduces it
+through the House eHopper \cite{anthropic-claude-code, house-ehopper}.}
+
+\begin{mermaidfig}
+\node[mmperson,text width=20mm] (k) at (0,0) {Author (human)};
+\node[mmstep,text width=20mm] (ai) at (2.8,0) {Claude Code Opus 4.8};
+\node[mmdec,text width=20mm] (t) at (5.6,0) {VVUQ gates and tests};
+\node[mmstep,text width=20mm] (l) at (8.4,0) {Legislative Counsel};
+\node[mmgoal,text width=20mm] (h) at (11.2,0) {House (eHopper)};
+\draw[mmedge] (k) -- node[mmlabel]{1 requirements} (ai);
+\draw[mmedge] (ai) -- node[mmlabel]{2 generate, run} (t);
+\draw[mmedge] (t) -- node[mmlabel]{3 bill, deliverables} (l);
+\draw[mmedge] (l) -- node[mmlabel]{4 introduce} (h);
+\end{mermaidfig}
+\vspace{-0.3cm}
+\figcaption{Figure 7. Evidence to introduction handoff: requirements to autonomous
+generation and gating, to legislative form, to introduction by a sponsoring Member.}
