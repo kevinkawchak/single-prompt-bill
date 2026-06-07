@@ -8,7 +8,7 @@ Utilize a single prompt to generate **H. R. 9510 v4.0** fully autonomously.
 [![Stage](https://img.shields.io/badge/Stage-Autonomous%20single--prompt%20build-orange.svg)](.)
 [![Diagrams](https://img.shields.io/badge/Diagrams-Gray--scale%20Mermaid%20only-lightgrey.svg)](.)
 [![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
-[![Repository DOI](https://img.shields.io/badge/Repository%20DOI-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Repository DOI](https://img.shields.io/badge/Repository%20DOI-10.5281%2Fzenodo.20576648-blue.svg)](https://doi.org/10.5281/zenodo.20576648)
 [![Release](https://img.shields.io/badge/Release-v1.0.0-orange.svg)](releases.md)
 
 *Independent research draft. Not an enacted law, not pending legislation, and not
