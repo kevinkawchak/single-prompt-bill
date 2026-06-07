@@ -4,7 +4,7 @@
 [![Stage](https://img.shields.io/badge/Stage-7%20of%207%20(final%20bill)-brightgreen.svg)](.)
 [![Bill](https://img.shields.io/badge/Bill-H.%20R.%209510%20v4.0-darkblue.svg)](.)
 [![Diagrams](https://img.shields.io/badge/Diagrams-Gray--scale%20Mermaid%20(TikZ)-lightgrey.svg)](.)
-[![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.20576907-blue.svg)](https://doi.org/10.5281/zenodo.20576907)
 [![Release](https://img.shields.io/badge/Release-v1.0.0-orange.svg)](../../releases.md)
 [![Compile](https://img.shields.io/badge/Compile-Overleaf%20pdfLaTeX-green.svg)](.)
 
