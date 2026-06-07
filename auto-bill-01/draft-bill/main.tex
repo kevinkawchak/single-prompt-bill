@@ -1,0 +1,233 @@
+% ============================================================
+% main.tex
+% H. R. 9510 BILL v4.0 - draft-bill (scaffold), single-prompt-bill / auto-bill-01.
+%   THE GRAY-SCALE MERMAID AMENDMENT to the Federal Food, Drug, and Cosmetic Act
+%   (21 U.S.C. 301 et seq.), grounded on the Title 21 device provisions current
+%   through Public Law 119-93.
+%
+% WHAT THIS FILE IS. This is the v4.0 DRAFT (scaffold). It lays out the full
+% congressional amendment structure (caption; A BILL; enacting clause; SECTION 1
+% short title and a clickable, page-filling table of contents; SEC. 2 findings;
+% SEC. 3 the operative amendment and new section 515D; SEC. 4 comparative print)
+% and the twelve deliverable appendices (Appendix A through Appendix L), each as a
+% scaffold carrying bracketed [DRAFTING INSTRUCTIONS] that name the exact upstream
+% sources and the gray-scale Mermaid figure the full bill will render. Every figure
+% is a gray-scale Mermaid diagram rendered in TikZ; there are no raster images.
+%
+% Compile recipe (Overleaf, pdfLaTeX):
+%   pdflatex main.tex
+%   bibtex   main
+%   pdflatex main.tex
+%   pdflatex main.tex
+% ============================================================
+\documentclass[11pt]{article}
+\usepackage{usctitle}
+
+\title{Verification Before Generation in Physical AI Oncology Trials Act of 2026
+(H. R. 9510), Bill v4.0 (draft): A Gray-Scale Mermaid Amendment to the Federal
+Food, Drug, and Cosmetic Act}
+\author{Prepared for single-prompt-bill by CEO Kevin Kawchak, ChemicalQDevice}
+\date{June 7, 2026 (current through Public Law 119-93)}
+
+\begin{document}
+
+% ============================================================
+% BILL CAPTION AND FRONT MATTER (the caption page).
+% ============================================================
+\thispagestyle{plain}
+\pagenumbering{roman}
+
+\billcaption{119TH CONGRESS}{2d Session}{H.\,R. 9510}
+
+\billlongtitle{To amend the Federal Food, Drug, and Cosmetic Act to require an
+automated verification, validation, and uncertainty quantification process to
+clear robot-patient interaction code before that code is generated or executed in
+a Physical AI oncology clinical investigation.}
+
+\billintro{IN THE HOUSE OF REPRESENTATIVES}{June 7, 2026}{%
+Mr.\ \underline{Kevin Kawchak} authored the following bill with the assistance of
+artificial intelligence; which was referred to the Committee on Energy and
+Commerce.}
+
+\billhead
+
+\enactingclause
+
+\billcovernote{\href{https://doi.org/10.5281/zenodo.xxxxxxxx}{Bill (v4.0)
+10.5281/zenodo.xxxxxxxx} is the gray-scale Mermaid amendment of H. R. 9510, the
+Verification Before Generation in Physical AI Oncology Trials Act of 2026. This is
+the draft scaffold: it fixes the structure, the figure slots, and the twelve
+deliverable appendices, each carrying bracketed drafting instructions for the full
+bill. It was prepared with an autonomous artificial intelligence coding agent
+(Claude Code Opus 4.8, 1M context, Max) under human direction. It is an independent
+research draft, is not an enacted law, and is not legal advice.}
+
+\begin{mermaidfig}
+\node[mmgoal] (mp) at (0,0) {Master prompt (single submission)};
+\node[mmstep] (pa) at (-3.4,-1.7) {Process A\\seven sub-prompts};
+\node[mmstep] (pb) at (3.4,-1.7) {Process B\\stages 1-7};
+\node[mmin]   (dr) at (-4.4,-3.5) {draft-bill\\(this scaffold)};
+\node[mmstep] (fu) at (0,-3.5) {full-bill};
+\node[mmgoal] (fi) at (4.4,-3.5) {final-bill v1.0.0};
+\draw[mmedge] (mp) -- (pa);
+\draw[mmedge] (mp) -- (pb);
+\draw[mmedge] (pa) -- (pb);
+\draw[mmedge] (pb) -- (dr);
+\draw[mmedge] (pb) -- (fu);
+\draw[mmedge] (pb) -- (fi);
+\draw[mmedge] (dr) -- (fu);
+\draw[mmedge] (fu) -- (fi);
+\end{mermaidfig}
+\vspace{-0.2cm}
+\figcaption{Cover Figure. The Bill v4.0 single-prompt build: one Master prompt
+generates every sub-prompt (Process A), which run in sequence (Process B) to grow
+the bill from this draft scaffold to the full bill and the polished final bill.}
+
+\clearpage
+\pagenumbering{arabic}
+
+% ============================================================
+% SECTION 1. SHORT TITLE; TABLE OF CONTENTS.
+% The contents is clickable and fills the page; it lists the four operative
+% sections and the twelve deliverable appendices (Rule 2).
+% ============================================================
+\billsec{SECTION 1.}{SHORT TITLE; TABLE OF CONTENTS.}\phantomsection\label{toc:s1}
+
+\uscprov{1}{\textbf{(a) Short Title.} This Act may be cited as the ``Verification
+Before Generation in Physical AI Oncology Trials Act of 2026''.}
+
+\uscprov{1}{\textbf{(b) Table of Contents.} The table of contents for this Act
+version is as follows. Each entry links to the part it names.}
+
+\vspace{0.4\baselineskip}
+\billtoc{%
+\billtocline{toc:s1}{Sec.~1.}{Short title; table of contents.}{The citation and
+this clickable contents.}
+\vfill
+\billtocline{toc:s2}{Sec.~2.}{Findings; the evidence to law record.}{Why the
+rule is needed and feasible, with the four-work record.}
+\vfill
+\billtocline{toc:s3}{Sec.~3.}{Amendment to the Federal Food, Drug, and Cosmetic
+Act.}{New section 515D and ten conforming amendments.}
+\vfill
+\billtocline{toc:s4}{Sec.~4.}{Comparative print; changes in existing law.}{The
+eleven affected Title 21 device sections, marked.}
+\vfill
+\billtocline{toc:aA}{App.~A.}{One-page summary.}{The problem, the rule, the
+evidence, and the ask, on one page.}
+\vfill
+\billtocline{toc:aB}{App.~B.}{Section-by-section analysis.}{Plain-English gloss of
+every operative part.}
+\vfill
+\billtocline{toc:aC}{App.~C.}{Plain-English policy memo.}{Why the sequencing gap
+matters and why the gate fits existing law.}
+\vfill
+\billtocline{toc:aD}{App.~D.}{Legislative findings.}{The findings of fact, each
+tied to an in-force authority.}
+\vfill
+\billtocline{toc:aE}{App.~E.}{Ramseyer comparative print.}{Changes to existing law,
+marked, for the affected sections.}
+\vfill
+\billtocline{toc:aF}{App.~F.}{Constitutional Authority Statement.}{The Commerce
+Clause basis (House Rule XII).}
+\vfill
+\billtocline{toc:aG}{App.~G.}{PAYGO and cost estimate.}{PAYGO note and a negative
+earmark declaration.}
+\vfill
+\billtocline{toc:aH}{App.~H.}{Sponsor and cosponsor packet.}{The sponsor role and
+the cosponsor form.}
+\vfill
+\billtocline{toc:aI}{App.~I.}{Stakeholder engagement plan.}{Outreach to agencies,
+advocacy, industry, and standards bodies.}
+\vfill
+\billtocline{toc:aJ}{App.~J.}{Legislative Counsel routing memo.}{The
+legislative-form questions for HOLC.}
+\vfill
+\billtocline{toc:aK}{App.~K.}{Currency and cross-reference matrix.}{Re-verification
+that every citation still lands.}
+\vfill
+\billtocline{toc:aL}{App.~L.}{Testimony and research-influence brief.}{Hearing
+testimony; emerging bills kept out of the text.}
+}
+
+\clearpage
+
+% ============================================================
+% BILL BODY AND APPENDICES (one file per section; each corresponds to main.tex).
+% In the draft scaffold each file carries its heading and bracketed
+% [DRAFTING INSTRUCTIONS]; the full bill renders them into prose and figures.
+% ============================================================
+\input{sections/s2-findings}
+\input{sections/s3-amendment}
+\input{sections/s4-comparative}
+\input{sections/a-one-page-summary}
+\input{sections/b-section-by-section}
+\input{sections/c-policy-memo}
+\input{sections/d-findings}
+\input{sections/e-ramseyer}
+\input{sections/f-constitutional-authority}
+\input{sections/g-paygo-cost}
+\input{sections/h-sponsor-cosponsor}
+\input{sections/i-stakeholder}
+\input{sections/j-counsel-routing}
+\input{sections/k-currency-matrix}
+\input{sections/l-testimony-influence}
+
+% ============================================================
+% AUTHORSHIP, NOTICES, AND PROVENANCE.
+% ============================================================
+\clearpage
+\vspace{0.3cm}
+\phantomsection
+\addcontentsline{toc}{section}{Authorship, Notices, and Provenance}
+\usccrosshead{AUTHORSHIP, NOTICES, AND PROVENANCE}
+
+\uscnotepar{Prepared by CEO Kevin Kawchak
+(\href{https://orcid.org/0009-0007-5457-8667}{ORCID 0009-0007-5457-8667}),
+ChemicalQDevice (\href{mailto:kevink@chemicalqdevice.com}{kevink@chemicalqdevice.com}).
+Adapted using Claude Code Opus 4.8 (1M context) Max; research assisted by ChatGPT
+and Google Gemini.}
+
+\uscnotepar{Notice: This measure was adapted from documents of the United States
+Government in the public domain under 17 U.S.C. 105. The reproduced statutory text
+is in the public domain; the authoritative version is the United States Code as
+published by the Office of the Law Revision Counsel. This work is not endorsed or
+sponsored by the FDA, HHS, the OLRC, CFR, ICH, or any member of Congress.}
+
+\uscnotepar{Disclaimer: This work is an independent research draft, is not an
+enacted law, and is not legal advice; it is not endorsed, sponsored, or approved by
+any trial sponsor, contract research organization, site, institutional review
+board, regulator, or medical society. All supporting numbers are simulation or
+illustrative results from the seed 20260525, and no patient-identifiable
+information is included.}
+
+\uscnotepar{Rights: The reproduced statutory text is in the public domain; the
+generated amendment framing, figures, tables, and notices are released under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0),
+\href{https://creativecommons.org/licenses/by/4.0/}{https://creativecommons.org/licenses/by/4.0/}.}
+
+\href{https://doi.org/10.5281/zenodo.xxxxxxxx}{DOI current bill (v4.0): 10.5281/zenodo.xxxxxxxx}
+
+\href{https://doi.org/10.5281/zenodo.xxxxxxxx}{DOI prior bill (v3.0): 10.5281/zenodo.xxxxxxxx}
+
+\href{https://doi.org/10.5281/zenodo.xxxxxxxx}{DOI repository: 10.5281/zenodo.xxxxxxxx}
+
+\uscnotepar{San Diego. June 7, 2026.}
+
+% ============================================================
+% PROVENANCE AND RESEARCH SOURCES (BIBLIOGRAPHY).
+% ============================================================
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{Provenance and Research Sources}
+\usccrosshead{Provenance and Research Sources}
+\vspace{-0.4cm}
+
+\begingroup
+\RaggedRight
+\nocite{*}
+\bibliographystyle{ieeetr}
+\bibliography{references}
+\endgroup
+
+\end{document}
