@@ -7,7 +7,7 @@ Utilize a single prompt to generate **H. R. 9510 v4.0** fully autonomously.
 [![Bill](https://img.shields.io/badge/Bill-H.%20R.%209510%20(119th%20Cong.%2C%202d%20Sess.)-darkblue.svg)](.)
 [![Stage](https://img.shields.io/badge/Stage-Autonomous%20single--prompt%20build-orange.svg)](.)
 [![Diagrams](https://img.shields.io/badge/Diagrams-Gray--scale%20Mermaid%20only-lightgrey.svg)](.)
-[![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.20576907-blue.svg)](https://doi.org/10.5281/zenodo.20576907)
 [![Repository DOI](https://img.shields.io/badge/Repository%20DOI-10.5281%2Fzenodo.20576648-blue.svg)](https://doi.org/10.5281/zenodo.20576648)
 [![Release](https://img.shields.io/badge/Release-v1.0.0-orange.svg)](releases.md)
 
@@ -120,7 +120,7 @@ Every directory README names the exact upstream files it used. The project-level
   VVUQ-03 v1.0, VVUQ-04 v2.0, and VVUQ-05 v3.0).
 - **Repository release:** **v1.0.0** (the first tagged release of this repository).
 - **DOIs** are left as `10.5281/zenodo.xxxxxxxx`
-  ([https://doi.org/10.5281/zenodo.xxxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxxx))
+  ([https://doi.org/10.5281/zenodo.20576907](https://doi.org/10.5281/zenodo.20576907)
   pending deposit (Rule 15).
 
 ## Responsible use and license
