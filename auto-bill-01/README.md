@@ -64,10 +64,22 @@ used in this build. Per-directory READMEs repeat the relevant rows in detail.
 
 ## Build status
 
-This README is updated as stages complete. The authoritative status is the git
-history of the `claude/amazing-wozniak-gRjdM` branch and the merged pull requests
-into `main`. Each bill directory has its own README with the compile recipe, the
-figure and table inventory, and the deliverable-to-appendix map.
+**Status: complete (v1.0.0).** All nine pull requests are merged into `main`. The
+authoritative record is the git history of the `claude/amazing-wozniak-gRjdM` branch
+and the merged pull requests. Each bill directory has its own README with the
+compile recipe, the figure and table inventory, and the deliverable-to-appendix map.
+
+| PR | Stage | Result |
+|:--|:--|:--|
+| 1 | Bootstrap + Process A | README, Master prompt, seven sub-prompts |
+| 2 | Stage 1 research | `01-research/` |
+| 3 | Stage 2 template selection | `02-template-selection/` (output-03 chosen) |
+| 4 | Stage 3 Mermaid selection | `03-mermaid-selection/` (9 gray-scale diagrams) |
+| 5 | Stage 4 figure selection | `04-figure-selection/` (9 figures + cover, 11 tables) |
+| 6 | Stage 5 draft bill | `draft-bill/` (scaffold + zip) |
+| 7 | Stage 6 full bill | `full-bill/` (rendered + 12 LaTeX deliverables + zip) |
+| 8 | Stage 7 final bill | `final-bill/` (polished, v1.0.0 + zip) |
+| 9 | Release (Rule 10) | `CHANGELOG.md`, `releases.md`, repository finalization |
 
 ## License
 
