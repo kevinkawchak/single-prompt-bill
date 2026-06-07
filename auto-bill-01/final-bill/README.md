@@ -17,6 +17,8 @@ v1.0.0**. Its context and formatting quality are intended to match and exceed th
 prior VVUQ-05 final-bill. No images; every diagram is a gray-scale Mermaid figure
 rendered in TikZ (Rule 5).
 
+Note: Original H. R. 9510 (Bill v4.0) 2026.pdf was compiled directly using Overleaf, and does not contain updated DOIs.
+
 ## The polish applied (full bill to final bill)
 
 1. **Page balancing** with `\clearpage`, `\vspace`, and `\hspace`: SEC. 3 and SEC. 4
