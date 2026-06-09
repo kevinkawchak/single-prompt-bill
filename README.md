@@ -35,8 +35,7 @@ them in sequence as the bill grew from `draft-bill` to `full-bill` to
   **gray-scale Mermaid diagram**. There are no raster images anywhere. In the
   Markdown files the diagrams are real `mermaid` blocks (GitHub renders them); in
   the compiled LaTeX bill each diagram is reproduced as a **gray-scale TikZ
-  figure** that matches the Mermaid source, because Overleaf does not render
-  Mermaid natively and no image files are permitted (Rule 5).
+  figure**.
 
 ## Build pipeline (gray-scale Mermaid)
 
