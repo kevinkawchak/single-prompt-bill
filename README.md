@@ -22,8 +22,7 @@ v4.0**, the *Verification Before Generation in Physical AI Oncology Trials Act o
 § 301 et seq.). It was produced from one Master prompt by **Claude Code Opus 4.8
 (1M context) Max**, which first generated all of its own sub-prompts and then ran
 them in sequence as the bill grew from `draft-bill` to `full-bill` to
-`final-bill`, committing and opening pull requests in real time so the branch
-progress can be monitored without any user intervention.
+`final-bill`.
 
 ## The two main updates over Bill v3.0
 
