@@ -79,17 +79,21 @@ M1 bootstrap --> M2 research --> M3 template --> M4 mermaid+ascii --> M5 figures
 M9 release (v2.0.0) <-- M8 final-bill <-- M7 full-bill <-- M6 draft-bill
 ```
 
+**Status: complete (v2.0.0).** All nine milestones landed on
+`claude/funny-meitner-7ywlgc`, one commit per file pushed in real time, inside
+the single continuously updated pull request.
+
 | Milestone | Stage | Output | Status |
 |:--|:--|:--|:--|
-| M1 | Bootstrap (Process A) | this README, `master-prompt.md`, `sub-prompts/`; PR opened | in progress |
-| M2 | Stage 1 financial research | `01-research/` | pending |
-| M3 | Stage 2 template selection | `02-template-selection/` | pending |
-| M4 | Stage 3 Mermaid + ASCII selection | `03-mermaid-selection/` | pending |
-| M5 | Stage 4 figure selection | `04-figure-selection/` | pending |
-| M6 | Stage 5 draft bill | `draft-bill/` (.tex + zip) | pending |
-| M7 | Stage 6 full bill | `full-bill/` (.tex + zip) | pending |
-| M8 | Stage 7 final bill | `final-bill/` (.tex + zip), repository v2.0.0 | pending |
-| M9 | Release (Rule 10) | `CHANGELOG.md`, `releases.md`, root `README.md` | pending |
+| M1 | Bootstrap (Process A) | this README, `master-prompt.md`, `sub-prompts/`; PR opened | complete (10 commits) |
+| M2 | Stage 1 financial research | `01-research/` | complete (2) |
+| M3 | Stage 2 template selection | `02-template-selection/` | complete (2) |
+| M4 | Stage 3 Mermaid + ASCII selection | `03-mermaid-selection/` | complete (2) |
+| M5 | Stage 4 figure selection | `04-figure-selection/` | complete (2) |
+| M6 | Stage 5 draft bill | `draft-bill/` (.tex + zip) | complete (16) |
+| M7 | Stage 6 full bill | `full-bill/` (.tex + zip) | complete (16) |
+| M8 | Stage 7 final bill | `final-bill/` (.tex + zip), repository v2.0.0 | complete (16) |
+| M9 | Release (Rule 10) | `CHANGELOG.md`, `releases.md`, root `README.md`, this status | complete (4) |
 
 ## Directory map
 
