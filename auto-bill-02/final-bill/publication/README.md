@@ -1,4 +1,4 @@
-# final-bill (LaTeX): H. R. 9510 Bill v5.0 - polished, v2.0.0
+# H. R. 9510 Bill v5.0 Publication, v2.0.0
 
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-yellow.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Stage](https://img.shields.io/badge/Stage-7%20of%207%20(final%20bill)-brightgreen.svg)](.)
