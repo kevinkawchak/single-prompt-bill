@@ -76,7 +76,7 @@ whose description is refreshed as each milestone lands.
 M1 bootstrap --> M2 research --> M3 template --> M4 mermaid+ascii --> M5 figures
                                                                           |
                                                                           v
-M9 release (v2.0.0) <-- M8 final-bill <-- M7 full-bill <-- M6 draft-bill
+M9 release (v2.0.0) <---- M8 final-bill <----- M7 full-bill <----- M6 draft-bill
 ```
 
 **Status: complete (v2.0.0).** All nine milestones landed on
