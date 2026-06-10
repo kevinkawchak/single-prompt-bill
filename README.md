@@ -27,8 +27,7 @@ the *Verification Before Generation in Physical AI Oncology Trials Act of
 2026*, an amendment to the **Federal Food, Drug, and Cosmetic Act** (21 U.S.C.
 § 301 et seq.). Each build is driven by one Master prompt: the agent first
 generates all of its own sub-prompts (Process A), then runs them in sequence
-(Process B) as the bill grows from `draft-bill` to `full-bill` to
-`final-bill`, with every file a separate real-time commit.
+(Process B).
 
 ## The two builds
 
