@@ -9,7 +9,7 @@
 [![Release](https://img.shields.io/badge/Release-v2.0.0-orange.svg)](../../releases.md)
 [![Compile](https://img.shields.io/badge/Compile-Overleaf%20pdfLaTeX-green.svg)](.)
 
-The **polished, final** H. R. 9510 Bill v5.0, the *Verification Before
+PDF and LaTeX source files are available on [Zenodo](https://doi.org/10.5281/zenodo.20619762) for H. R. 9510 Bill v5.0, the *Verification Before
 Generation in Physical AI Oncology Trials Act of 2026*, **the Financial Data
 Amendment** to the Federal Food, Drug, and Cosmetic Act (21 U.S.C. § 301 et
 seq.), current through Public Law 119-93. It is the
