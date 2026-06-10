@@ -10,7 +10,7 @@ autonomously. Two builds: **v4.0** (`auto-bill-01`) and **v5.0**
 [![Stage](https://img.shields.io/badge/Stage-Autonomous%20single--prompt%20builds-orange.svg)](.)
 [![Current](https://img.shields.io/badge/Current-Bill%20v5.0%20Financial%20Data%20Amendment-darkgreen.svg)](auto-bill-02)
 [![Media](https://img.shields.io/badge/Media%20(v5.0)-Tables%20%2B%20ASCII%20%2B%20Mermaid-lightgrey.svg)](auto-bill-02)
-[![Bill DOI (v5.0)](https://img.shields.io/badge/Bill%20DOI%20(v5.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Bill DOI (v5.0)](https://img.shields.io/badge/Bill%20DOI%20(v5.0)-10.5281%2Fzenodo.20619762-blue.svg)](https://doi.org/10.5281/zenodo.20619762)
 [![Bill DOI (v4.0)](https://img.shields.io/badge/Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.20576907-blue.svg)](https://doi.org/10.5281/zenodo.20576907)
 [![Repository DOI](https://img.shields.io/badge/Repository%20DOI-10.5281%2Fzenodo.20576648-blue.svg)](https://doi.org/10.5281/zenodo.20576648)
 [![Release](https://img.shields.io/badge/Release-v2.0.0-orange.svg)](releases.md)
@@ -110,8 +110,8 @@ project-level map for the current (v5.0) build:
   [`releases.md`](releases.md).
 - **DOIs:** Bill v4.0
   [10.5281/zenodo.20576907](https://doi.org/10.5281/zenodo.20576907); Bill
-  v5.0 `10.5281/zenodo.xxxxxxxx`
-  ([https://doi.org/10.5281/zenodo.xxxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxxx))
+  v5.0 `10.5281/zenodo.20619762`
+  ([https://doi.org/10.5281/zenodo.20619762](https://doi.org/10.5281/zenodo.20619762))
   pending deposit (Rule 15); repository
   [10.5281/zenodo.20576648](https://doi.org/10.5281/zenodo.20576648).
 
