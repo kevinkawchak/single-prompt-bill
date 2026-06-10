@@ -19,8 +19,7 @@ autonomously. Two builds: **v4.0** (`auto-bill-01`) and **v5.0**
 not legal advice; not endorsed by the FDA, HHS, the CBO, the GAO, the OMB, the
 OLRC, CFR, ICH, or any Member of Congress. The illustrative number "H. R.
 9510" is a placeholder; the Clerk assigns the real number only at
-introduction. All dollar figures in the v5.0 build are illustrative unless
-tied to a cited statute or notice.*
+introduction.*
 
 This repository holds the autonomous, single-prompt builds of **H. R. 9510**,
 the *Verification Before Generation in Physical AI Oncology Trials Act of
