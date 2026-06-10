@@ -4,7 +4,7 @@
 [![Bill](https://img.shields.io/badge/Bill-H.%20R.%209510%20v5.0-darkblue.svg)](.)
 [![Focus](https://img.shields.io/badge/Focus-Financial%20data-darkgreen.svg)](.)
 [![Media](https://img.shields.io/badge/Media-Tables%20%2B%20ASCII%20%2B%20Mermaid-lightgrey.svg)](.)
-[![Bill DOI (v5.0)](https://img.shields.io/badge/Bill%20DOI%20(v5.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Bill DOI (v5.0)](https://img.shields.io/badge/Bill%20DOI%20(v5.0)-10.5281%2Fzenodo.20619762-blue.svg)](https://doi.org/10.5281/zenodo.20619762)
 [![Prior Bill DOI (v4.0)](https://img.shields.io/badge/Prior%20Bill%20DOI%20(v4.0)-10.5281%2Fzenodo.20576907-blue.svg)](https://doi.org/10.5281/zenodo.20576907)
 [![Release](https://img.shields.io/badge/Release-v2.0.0-orange.svg)](../releases.md)
 
@@ -152,8 +152,8 @@ auto-bill-02/
   after VVUQ-03 v1.0, VVUQ-04 v2.0, VVUQ-05 v3.0, and auto-bill-01 v4.0).
 - **Repository release:** **v2.0.0** (this build; the first release was the
   v1.0.0 auto-bill-01 build).
-- **DOI** for the v5.0 bill is left as `10.5281/zenodo.xxxxxxxx`
-  ([https://doi.org/10.5281/zenodo.xxxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxxx))
+- **DOI** for the v5.0 bill is left as `10.5281/zenodo.20619762`
+  ([https://doi.org/10.5281/zenodo.20619762](https://doi.org/10.5281/zenodo.20619762))
   pending deposit (Rule 15).
 
 ## License
