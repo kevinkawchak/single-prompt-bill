@@ -5,7 +5,7 @@
 [![Bill](https://img.shields.io/badge/Bill-H.%20R.%209510%20v5.0-darkblue.svg)](.)
 [![Focus](https://img.shields.io/badge/Focus-Financial%20data-darkgreen.svg)](.)
 [![Media](https://img.shields.io/badge/Media-15%20tables%20%2B%206%20ASCII%20%2B%206%20Mermaid-lightgrey.svg)](.)
-[![Bill DOI (v5.0)](https://img.shields.io/badge/Bill%20DOI%20(v5.0)-10.5281%2Fzenodo.xxxxxxxx-blue.svg)](https://doi.org/10.5281/zenodo.xxxxxxxx)
+[![Bill DOI (v5.0)](https://img.shields.io/badge/Bill%20DOI%20(v5.0)-10.5281%2Fzenodo.20619762-blue.svg)](https://doi.org/10.5281/zenodo.20619762)
 [![Release](https://img.shields.io/badge/Release-v2.0.0-orange.svg)](../../releases.md)
 [![Compile](https://img.shields.io/badge/Compile-Overleaf%20pdfLaTeX-green.svg)](.)
 
