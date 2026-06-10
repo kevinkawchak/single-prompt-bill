@@ -15,4 +15,4 @@
 Total Time:
 30 + 50 + 38 + 25 + 38 + 34 = 215 Minutes of Manual Edits.
 
-Several selections of text were analyzed using speech to text at different stages of the proof-reading process.
+Several selections of text were analyzed using text to speech at different stages of the proof-reading process.
