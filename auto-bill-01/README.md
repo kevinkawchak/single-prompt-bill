@@ -11,9 +11,7 @@ This directory holds the entire autonomous build of **H. R. 9510 Bill v4.0**, th
 build was driven by the single [`master-prompt.md`](master-prompt.md): Process A
 generated every sub-prompt under [`sub-prompts/`](sub-prompts), and Process B ran
 those sub-prompts in order, producing the four research stages (`01`-`04`) and the
-three bill stages (`draft-bill`, `full-bill`, `final-bill`). Every stage is a
-separate pull request; every distinguishable file is a separate commit; all are
-pushed in real time (Rules 7, 8, 9).
+three bill stages (`draft-bill`, `full-bill`, `final-bill`). 
 
 ## What is new in v4.0
 
