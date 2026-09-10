@@ -115,7 +115,7 @@ project-level map for the current (v5.0) build:
 
 ## Responsible use and license
 
-The reproduced statutory text is a work of the United States Government in the
+The reproduced text is a work of the United States Government in the
 public domain (17 U.S.C. § 105); the authoritative version is the United
 States Code as published by the Office of the Law Revision Counsel. The
 generated amendment framing, figures, tables, deliverables, and documentation
