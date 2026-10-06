@@ -1,6 +1,6 @@
 # single-prompt-bill
 
-Utilize a single prompt to generate a complete H. R. 9510 bill version fully
+This repository utilizes a single prompt to generate a complete H. R. 9510 bill version fully
 autonomously. Two builds: **v4.0** (`auto-bill-01`) and **v5.0**
 (`auto-bill-02`, current).
 
