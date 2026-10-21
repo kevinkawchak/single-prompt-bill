@@ -1,7 +1,7 @@
 # single-prompt-bill
 
 This repository utilizes a single prompt to generate a complete H. R. 9510 bill version fully
-autonomously. Two builds exist: **v4.0** (`auto-bill-01`) and **v5.0**
+autonomously. Two builds exist here: **v4.0** (`auto-bill-01`) and **v5.0**
 (`auto-bill-02`, current).
 
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-yellow.svg)](https://creativecommons.org/licenses/by/4.0/)
