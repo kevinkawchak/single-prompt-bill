@@ -15,7 +15,7 @@ autonomously. Two builds exist: **v4.0** (`auto-bill-01`) and **v5.0**
 [![Repository DOI](https://img.shields.io/badge/Repository%20DOI-10.5281%2Fzenodo.20576648-blue.svg)](https://doi.org/10.5281/zenodo.20576648)
 [![Release](https://img.shields.io/badge/Release-v2.0.0-orange.svg)](releases.md)
 
-*Independent research draft. Not an enacted law, not pending legislation, and
+*Independent research draft. This is not an enacted law, not pending legislation, and
 not legal advice; not endorsed by the FDA, HHS, the CBO, the GAO, the OMB, the
 OLRC, CFR, ICH, or any Member of Congress. The illustrative number "H. R.
 9510" is a placeholder; the Clerk assigns the real number only at
